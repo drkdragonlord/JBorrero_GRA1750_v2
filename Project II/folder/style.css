@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	display:none;
+	background-color: yellow;
+
+}
+div{
+	width: 500px;
+	background-color: #696969;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div:hover p{
+	display: block;
+}
+
+a{
+	font-size: 1.2em;
+	font-family: Helvetica, Gill-Sans, Sans-Serif;
+	text-decoration: none;
+	
+}
+
+a:link{
+	color:red;
+}
+
+a:visited{
+	color:orange;
+}
+
+a:hover{
+	color:green;
+}
+
+a:active{
+	color: black;
+}
+
+a:first-child i{
+	color:red;
+}
+
+div:first-child i{
+	color:blue;
+}
+
